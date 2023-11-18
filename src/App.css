@@ -6,3 +6,211 @@ nav{
     letter-spacing: 2px;
     font-weight: 700;
 }
+.nav-link{color: #303030;}
+.nav-link:hover{color: #717171;}
+/*section 1*/
+.slide1{
+    background-image: url('../public/images/section1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+.slide1-container{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family:'Dynalight';
+    font-style: italic;
+    text-align: center;
+    padding-top: 150px;
+}
+.box{
+    font-size: 23px;
+    height: 60px;
+    width: 450px;
+    border: none;
+    background-color: white;
+    text-align: center;
+    padding: 11px;
+    font-family: "Abhaya Libre";
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+/*section 2*/
+.slide2{
+    font-family:'Cormorant', serif;
+    font-style: italic;
+    color:  #494949;;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/*section 4*/
+.r1,.r2,.r3,.r4,.r5{margin: 0%;}
+.brand1.brand2,.brand3,.brand4,.brand5,.brand6,.brand7,.brand8,.brand9,.brand10{
+    opacity: 1;
+}
+.brand1:hover,.brand2:hover,.brand3:hover,.brand4:hover,.brand5:hover,.brand6:hover,.brand7:hover,.brand8:hover,.brand9:hover,.brand10:hover{
+    opacity: 0.5;
+}
+.head{
+    font-family: "Josefin Sans";
+    font-size: 30px;
+    text-align: center;
+}
+.button{
+    height: 55px;
+    width: 155px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+}
+.button:hover {
+    animation: GALLERY 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    perspective: 1000px;
+}
+@keyframes GALLERY {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+}
+/*section 5*/
+.slide5-container{
+    background-image: url('../public/images/section5/slide5.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.slide5-content{
+    text-align: center;
+    color: white;
+    padding: 8rem 0px;
+}
+.contentStyle{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: '160px'; 
+    font-size: 20px;
+    font-family: 'Cormorant', sans-serif;
+    font-style: italic;    
+  }
+
+/*slide 6*/
+.slide6-container{
+    font-size: 16px;
+    font-family: 'Cormorant', sans-serif;
+    color: #303030;
+    font-weight: 600;
+    padding: 10px;
+}
+.image{margin: 0;}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8,.img9,.img10,.img11,.img12{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 213px;
+    opacity: 1;  
+   
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover,.img8:hover,.img9:hover,.img10:hover,.img11:hover,.img12:hover{
+    opacity: 0.5;
+}
+.img1{background-image: url('../public/images/section6/image1.jpg')}
+.img2{background-image: url('../public/images/section6/image2.jpg')}
+.img3{background-image: url('../public/images/section6/image3.jpg')}
+.img4{background-image: url('../public/images/section6/image4.jpg')}
+.img5{background-image: url('../public/images/section6/image5.jpg')}
+.img6{background-image: url('../public/images/section6/image6.jpg')}
+.img7{background-image: url('../public/images/section6/image7.jpg')}
+.img8{background-image: url('../public/images/section6/image8.jpg')}
+.img9{background-image: url('../public/images/section6/image9.jpg')}
+.img10{background-image: url('../public/images/section6/image10.jpg')}
+.img11{background-image: url('../public/images/section6/image11.jpg')}
+.img12{background-image: url('../public/images/section6/image12.jpg')}
+.followus{
+    border: none;
+    border-radius: 4px;
+    background-color: #408bd1;
+    height: 33px;
+    width: 152px;
+    font-size: 13px;
+    font-family: 'Cormorant', sans-serif;
+    opacity: 1;
+}
+.followus:hover{
+    background-color: #408bd1;
+    opacity:0.8;
+}
+/*footer*/
+#footer{padding: 120px 0px;}
+.col1-line2{
+    font-family: 'Cormorant', sans-serif;
+    font-style: italic;
+    font-size: 21px;
+    color:  #494949;
+}
+.col1-line3{
+    padding: 25px 0px;
+}
+.vl {
+    border: 0.1px solid #717171;
+    height: 30px;
+    position: absolute;
+}
+.col2-line1{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.col2-line2{
+    font-family: "Cormorant", sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+    color: #717171;
+}
+.foot{
+    font-family: "Cormorant", sans-serif;
+    font-size: 17px;
+    color: #717171;
+    text-align: center;
+}
+.footer2:hover{
+    color: black;
+}
+
+/*media query*/
+@media screen and (max-width: 600px){
+    .slide5-container{
+        height: 150vh !important;
+    }
+}
